@@ -16,7 +16,7 @@
        "ifname": "enp6s0",
        "macaddr": "...",
        "phys_port": "...",
-       "eth_ipv4": "10.1.2.64"
+       "eth_ipv4": "10.1.2.42"
        "driver": "e1000e"
      }
   },
