@@ -1,0 +1,32 @@
+{
+  "dc_schema": "node/v1alpha1",
+  "dc_smbios": {
+    "system-manufacturer": "Penguin Computing",
+    "system-product-name": "Altus 16-bit MiniComputer",
+    "system-version": "1.2",
+    "system-serial-number": "P0.5e^(-0.34)i",
+    "...",
+  },
+  "dc_pci": {
+    "0000:00:00": {...},
+    "...",
+  },
+  "dc_net": {
+    "pci.0000:06:00.1": {
+       "ifname": "enp6s0",
+       "macaddr": "...",
+       "phys_port": "...",
+       "eth_ipv4": "10.1.2.64"
+       "driver": "e1000e"
+     }
+  },
+  "dc_disks": [
+    {
+      "model": "IBM IDE Hard Drive 500MB",
+      "path": "/dev/hda",
+      "serial": "001DD15K",
+      "size": "482.9 MB",
+      "subsystems": "block:ide:isa"
+    }
+  ]
+}
